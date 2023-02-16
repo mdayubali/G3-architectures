@@ -203,11 +203,11 @@ p.des{
     margin-top: 60px;
     justify-content: space-between;
 }
-
+/* Footer area */
 .footer-text{
     background: #FFF4E7;
 }
 .footer-text p{
-    padding: 15px 0px;
+    padding: 20px 0px;
     font-size: 20px;
 }
