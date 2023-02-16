@@ -1,0 +1,148 @@
+/* Utilities */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+
+}
+.text-center{
+    text-align: center;
+}
+.py-5{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+nav,
+.navigation,
+.feature-container,
+.feature-details-container
+{
+    display: flex;
+    align-items: center;
+}
+/* header */
+header{
+    background: #f585044d;
+    padding: 20px 0px;
+}
+nav{
+    justify-content: space-between;
+}
+a.logo{
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+.navigation{
+    justify-content: space-around;
+}
+.navigation a{
+    padding: 10px 15px;
+    margin: 0px 10px;
+    color: rgb(26, 26, 26);
+    font-size: 18px;
+}
+.header-container{
+    padding-top: 40px;
+}
+.header-container img{
+    max-width: 100%;
+}
+.header-info{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+h2.title{
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 15px 30px;
+    margin: 10px 0px;
+    color:rgb(26, 26, 26);
+    background: transparent;
+}
+.btn.btn-yellow{
+    background: #FF900E;
+    border-radius: 10px;
+    color: #fff;
+    border: 0px;
+    margin: 20px 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* Feature section */
+
+.feature-container,.feature-details-container{
+    justify-content: center;
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.features-images img{
+    width: 342px;
+    height: 342px;
+}
+.feature-content{
+    padding: 50px;
+}
+.feature-details{
+    width: 50%;
+}
+.feature-details p{
+    margin: 20px 0px;
+    font-size: 18px;
+    
+}
+h2.feature-title{
+    font-size: 36px;
+    color:gray;
+}
+span.text-bold{
+    font-weight: bold;
+    color: black;
+}
+span.text-yellow{
+    color: #FF900E;
+}
+.feature-details h2.title{
+    font-size: 45px;
+    font-weight: bold;
+    border-left: 3px solid#FF900E;
+    padding-left: 10px;
+}
+.feature-box{
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+span.extra-bold-text{
+    font-size: 65px;
+    font-weight: bold;
+}
+/* .btn.btn-yellow.negative-margin{
+    padding: 35px 30px;
+    margin-top: -65px;
+} */
+.negative-margin{
+    margin-top: -150px
+}
+p.des{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
