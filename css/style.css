@@ -12,7 +12,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0px;
     padding: 0px;
 }
-
+.w-50{
+    width: 50%;
+}
 a{
     text-decoration: none;
 }
@@ -33,7 +35,8 @@ nav,
 .feature-container,
 .feature-details-container,
 .fact-container,
-.sponsor-container
+.sponsor-container,
+.contact-container
 {
     display: flex;
     align-items: center;
@@ -112,7 +115,8 @@ a.logo{
 }
 /* Feature section */
 
-.feature-container,.feature-details-container{
+.feature-container,
+.feature-details-container{
     justify-content: center;
 }
 .features-images{
@@ -190,7 +194,7 @@ p.des{
 p.pr{
     padding-right: 60%;
 }
-.fact-box p.text{
+p.text{
     font-size: 20px;
     color: #727272;
     font-weight: 700;
@@ -202,6 +206,59 @@ p.pr{
 .sponsor-container{
     margin-top: 60px;
     justify-content: space-between;
+}
+/* contact area */
+.contact-container{
+    margin-bottom: 90px;
+    justify-content: center;  
+}
+.form-content{
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 70%;
+    padding: 5%;
+}
+label{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+textarea:focus,input:focus{
+    outline: none;
+}
+input[type="text"]:focus,input[type="email"]:focus,textarea:focus{
+    border: 1px solid red;
+}
+input[type="text"],input[type="email"],textarea{
+    padding: 10px 4px;
+    font-size: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form-group{
+    margin-bottom: 8px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+}
+.btn.btn-submit{
+    padding: 12px 30px;
+    font-size: 20px;
+    background: #FF900E;
+    color: #F3F3F3;
+    border: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    float: right;
 }
 /* Footer area */
 .footer-text{
