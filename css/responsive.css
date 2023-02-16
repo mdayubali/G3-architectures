@@ -1,0 +1,45 @@
+@media only screen and (max-width: 688px){
+    .header-container {
+        padding-top: 45px;
+       }
+    .py-5 {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    h2.title {
+        font-size: 30px;
+    }
+    nav,
+    .feature-container,
+    .feature-details-container,
+    .fact-container,
+    .sponsor-container
+    {
+        flex-direction: column;
+    }
+    .header-info h2.title {
+        font-size: 32px;
+    }
+    p.pr {
+        text-align: center;
+        padding: 0 25%;
+    }
+    .fact-secton h2.title{
+        text-align: center;
+    }
+    .sponsor-container img{
+        margin-bottom: 30px;
+    }
+    .features-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .feature-details-images {
+        margin-top: 45px;
+    }
+    .negative-margin {
+        margin-left: 30%;
+    }
+}
