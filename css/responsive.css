@@ -43,4 +43,7 @@
     .feature-details-images img{
         width: 100%;
     }
+    .contact-container {
+        margin-bottom: 30px;
+    }
 }
